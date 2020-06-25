@@ -1,0 +1,8 @@
+<a href="/posts/new"><button>ADD</button></a>
+<%@posts.each do |post|%>
+    <a href="/post/<%=post.id%>">
+    <h1><%=post.title%></h1>
+    <p><%=post.content%></p>
+    </a>
+    
+<%end%>

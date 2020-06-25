@@ -1,0 +1,9 @@
+<%= form_tag("", :method => "post") do %>
+    <%= label_tag(:title, "Input title:") %>
+    <%= text_field_tag(:title) %>
+    </br>
+    <%= label_tag(:content, "Input content:") %>
+    <%= text_field_tag(:content) %>
+    </br>
+    <%= submit_tag("Submit") %>
+ <% end %>

@@ -1,4 +1,5 @@
-class PhotosController < ActionController::Base
+class PhotosController < ApplicationController
     def index
-    end 
+        @a = 20;
+    end
 end
